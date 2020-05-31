@@ -1,38 +1,33 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React from "react";
-import logo from "./logo.svg";
+
 import "./App.css";
+
+
+
+import Header from './components/Header/Header.jsx';
+import Nav from './components/Nav/Nav.jsx'
+import ProfileContent from './components/ProfileContent/MyPosts/ProfileContent.jsx'
 
 const App = () => {
   return (
-    <div className="App">
+    <div className="app-wrapper">
       <Header />
-      <Technologies />
+      <div className="total">
+        <Nav />
+        <ProfileContent />
+       
+      </div>
+        
+      
+        
+      
     </div>
   );
 };
 
-const Header = () => {
-  return (
-    <div>
-      <a href="#"> Home </a>
-      <a href="#"> New feed </a>
-      <a href="#"> Messages </a>
-    </div>
-  );
-};
 
-const Technologies = () => {
-  return (
-    <ul>
-      <li>HTML</li>
-      <li>HTML</li>
-      <li>CSS</li>
-    
-      <li>JS</li>
-      <li>React</li>
-    </ul>
-  );
-};
+
+
 
 export default App;

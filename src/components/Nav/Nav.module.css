@@ -1,0 +1,25 @@
+.navi {
+background: #20b2aa;
+color: #fff;
+height: 600px;
+
+}
+
+.list {
+padding: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+li {
+  
+ margin-bottom: 20px;
+list-style-type: none;
+
+}
+

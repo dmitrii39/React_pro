@@ -1,4 +1,4 @@
-import openGoogle from './google ';
+import openGoogle from './google';
 import openYandex from './yandex';
 
 
